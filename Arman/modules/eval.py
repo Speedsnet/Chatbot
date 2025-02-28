@@ -28,7 +28,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 
 
 @ArmanX.on_edited_message(
-    filters.command("eval")
+    filters.command("KRISH")
     & filters.user(OWNER)
     & ~filters.forwarded
     & ~filters.via_bot
